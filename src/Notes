@@ -4,3 +4,5 @@ mapStateToProps() is a utility which helps your component get updated state(whic
 mapDispatchToProps() is a utility which will help your component to fire an action event (dispatching action which may cause change of application state)
 
 2. A “selector” is simply a function that accepts Redux state as an argument and returns data that is derived from that state.
+
+3. Thunk allows action Creater to return as a function instead of action 
